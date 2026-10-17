@@ -25,12 +25,12 @@ apiVersion: wdf.7sg.ai/v2
 kind: WorkloadDefinition
 metadata:
   name: nim-ide-assistant
-  version: 1.2.1
+  version: 1.2.2
   description: NIM-backed OpenAI-compatible API for IDE coding assistants (Cline/Cursor). GPU VM scenario deploys NIM then ide-api.
   tags:
     env: dev
 source:
-  repo: https://github.com/7sg-ai/model-serving
+  repo: https://github.com/nadeem7sg/model-serving
   branch: main
   path: nim-ide-assistant
 security:

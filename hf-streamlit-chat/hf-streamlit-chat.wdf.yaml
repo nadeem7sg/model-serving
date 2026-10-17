@@ -26,12 +26,12 @@ apiVersion: wdf.7sg.ai/v2
 kind: WorkloadDefinition
 metadata:
   name: hf-streamlit-chat
-  version: 1.1.5
+  version: 1.1.6
   description: HuggingFace Streamlit chat UI. OpenAI-compatible client to a model server (NIM on GCP GPU VM, vLLM locally).
   tags:
     env: dev
 source:
-  repo: https://github.com/7sg-ai/model-serving
+  repo: https://github.com/nadeem7sg/model-serving
   branch: main
   path: hf-streamlit-chat
 security:
